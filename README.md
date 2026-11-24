@@ -1,7 +1,8 @@
 # Case Manager Journey
 
-An end-to-end, password-protected HTML prototype of the complaints case journey, built with Salesforce Lightning Design System 2 (SLDS 2) styling.
+Password-protected HTML prototypes built with Salesforce Lightning Design System 2 (SLDS 2) styling.
 
-**Journey:** customer page → create a case → complaint form → auto tasks (complaint details, investigation, document upload) → case view → Case Actions overlay → add a new ad hoc task.
+- **`index.html`**: the end-to-end complaints journey: customer page → create a case → complaint form → auto tasks → case view → Case Actions → add a new task.
+- **`tasks-and-case-view.html`**: a focused study of where a task should open from the case view. It compares a side panel (recommended), a new tab and a modal.
 
-The page in this repo is encrypted (AES-GCM, key derived with PBKDF2). It unlocks in the browser with the password; nothing readable is stored here.
+Both pages are encrypted (AES-GCM, key derived with PBKDF2) and unlock in the browser with the password. Nothing readable is stored in this repo.
